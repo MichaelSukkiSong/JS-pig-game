@@ -104,7 +104,7 @@ document.querySelector('.btn-new').addEventListener('click', init);
 
 document.querySelector('.btn-set').addEventListener('click', function() {
     setScore = document.getElementById('setScore').value;
-    document.getElementById('set-score').textContent = 'Score is set to : ' +setScore;
+    document.getElementById('set-score').innerHTML = 'Score is set to : ' +'<em>'+setScore+'</em>';
 
     // document.querySelector('.btn-set').style.display = 'none';
 })
@@ -123,6 +123,7 @@ function init() {
     document.getElementById('score-1').textContent = '0';
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
+    
     document.getElementById('name-0').textContent = 'Player 1';
     document.getElementById('name-1').textContent = 'Player 2';
     document.querySelector('.player-0-panel').classList.remove('winner');
