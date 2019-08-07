@@ -139,8 +139,8 @@ i {
 
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
-.btn-hold { top: 467px;}
-.btn-set { top: 520px;}
+.btn-hold { top: 465px;}
+.btn-set { top: 545px;}
 
 .dice {
     position: absolute;
@@ -155,5 +155,25 @@ i {
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
 
 input {
+    /* border: 1px solid black; */
+    width: 125px;
+    height: 30px;
+    margin-bottom: 2px;
+    text-align: center;
+
+    position: absolute;
+    left: 50%;
+    top: 84%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
     border: 1px solid black;
+}
+
+#set-score {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translateX(-50%);
+    font-weight: 700;
 }

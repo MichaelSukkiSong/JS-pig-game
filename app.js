@@ -104,8 +104,9 @@ document.querySelector('.btn-new').addEventListener('click', init);
 
 document.querySelector('.btn-set').addEventListener('click', function() {
     setScore = document.getElementById('setScore').value;
+    document.getElementById('set-score').textContent = 'Score is set to : ' +setScore;
+
     // document.querySelector('.btn-set').style.display = 'none';
-    document.getElementById('set-score').textContent = setScore;
 })
 
 
