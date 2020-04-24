@@ -99,7 +99,7 @@ document.querySelector(".btn-new").addEventListener("click", init);
 document.querySelector(".btn-set").addEventListener("click", function() {
   setScore = document.getElementById("setScore").value;
   document.getElementById("set-score").innerHTML =
-    "Score is set to : " + "<em>" + setScore + "</em>";
+    "Score is set to : " + "<strong>" + setScore + "</strong>";
 
   // document.querySelector('.btn-set').style.display = 'none';
 });
